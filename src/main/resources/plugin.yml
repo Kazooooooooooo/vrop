@@ -1,0 +1,11 @@
+name: CrouchGrow
+version: 1.0.0
+main: com.crouchgrow.CrouchGrow
+api-version: '1.21'
+description: Grow bonemealable plants by crouching on them.
+author: YourName
+
+permissions:
+  crouchgrow.use:
+    description: Allows the player to grow bonemealable plants by crouching.
+    default: op

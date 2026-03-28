@@ -1,0 +1,16 @@
+# CrouchGrow Configuration
+
+# Grow radius (half-extent, measured in blocks from the player outward).
+#
+# This controls how large the square area is that gets bone-mealed when
+# a player crouches. The resulting area is always a square:
+#
+#   radius: 0  →  1×1  (only the block directly under the player)
+#   radius: 1  →  3×3  (default — one block out in every direction)
+#   radius: 2  →  5×5
+#   radius: 3  →  7×7
+#   radius: 4  →  9×9
+#
+# Tip: larger values grow more crops per crouch but use more server
+# resources. Values above 5 are not recommended on busy servers.
+radius: 1
